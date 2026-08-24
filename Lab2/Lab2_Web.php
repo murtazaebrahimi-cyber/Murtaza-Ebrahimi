@@ -15,9 +15,9 @@ class StudentAccount
 
     function ShowInfo()
     {
-        echo "Name" .$this->name. "br";
-        echo "StudentId" .$this->studentid. "br";
-        echo "Department" .$this->department. "br";
+        echo "Name" .$this->name. <"br">;
+        echo "StudentId" .$this->studentid. <"br">;
+        echo "Department" .$this->department. <"br">;
     }
 
     function GetStudentId()
